@@ -14,13 +14,12 @@ void times_table(void)
 			
 				if (ten == 0)
 				{
-					if(ten != 0)
-					{
+					
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					
-					}
+					
 					_putchar(unit + '0');
 				}
 				else
