@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strlen_recursion - returns the length of the string
+ * _lenght - returns the length of the string
  * @s: the given string
  *
  * Return: the length of the string
@@ -37,13 +37,11 @@ int _comp(int n, int a, char *s)
    *
    * Return: 1 if palindrome, 0 if not
    */
-  int is_palindrome(char *s)
- {
-       int n = 0;
-        int a = _lenght(s) - 1;
- 
-    if (_lenght(s) <= 1)
-     return (1);
- return (_comp(n, a, s));
- }
-
+int is_palindrome(char *s)
+{
+int n = 0;
+int a = _lenght(s) - 1;
+if (_lenght(s) <= 1)
+return (1);
+return (_comp(n, a, s));
+}
