@@ -6,7 +6,7 @@
    * @n: input
    * Return: output
    */
-char *_strncat(char *dest, cahr *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j;

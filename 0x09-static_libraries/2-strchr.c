@@ -6,7 +6,7 @@
   * @c: input
   * Return: output
   */
-char *_strchr(chr *s, char c)
+char *_strchr(char *s, char c)
 {
 	while (*s != c)
 	{
