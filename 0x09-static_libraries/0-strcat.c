@@ -6,10 +6,10 @@
   * Return: output
  */
 char *_strcat(char *dest, char *src)
-{s
+{
 	int i = 0;
 	int j = 0;
-	
+
 	while (dest[i] != '\0')
 	{
 		i++;
@@ -20,6 +20,6 @@ char *_strcat(char *dest, char *src)
 		dest[i + j] = src[j];
 		j++;
 	}
-	i++
+	i++;
 	return (dest);
 }
