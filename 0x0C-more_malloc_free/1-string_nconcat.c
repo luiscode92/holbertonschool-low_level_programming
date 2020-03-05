@@ -28,9 +28,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	/* Error handler*/
 	if (a == NULL)
 		return (NULL);
-
-
-
 	for (k = 0 ; k < i ; k++)
 	{
 		a[k] = s1[k];
