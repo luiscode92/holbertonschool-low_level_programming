@@ -5,7 +5,6 @@
  */
 int main(void)
 {
-	/*printf("%s\n", __FILE__);*/
-	puchar(__FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
