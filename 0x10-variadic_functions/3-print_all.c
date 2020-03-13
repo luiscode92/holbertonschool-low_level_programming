@@ -18,7 +18,15 @@ void _strn(va_list args)
 {
 	char *res;
 	res = va_arg(args, char*);
-	printf ("%s",res);
+	if (res != NULL)
+	{printf ("%s",res);
+	}
+	else
+	{
+		printf ("(nil)");
+	}
+	
+	
 }
 
 void _float(va_list args)
