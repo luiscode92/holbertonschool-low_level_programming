@@ -1,4 +1,6 @@
 #include "variadic_functions.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * _char - print char type element from va_list
@@ -32,7 +34,7 @@ void _strn(va_list args)
 {
 	char *res;
 
-	res = va_arg(args, char*);
+	res = va_arg(args, char *);
 	if (res != NULL)
 	{
 		printf("%s", res);
