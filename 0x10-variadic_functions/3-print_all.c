@@ -8,10 +8,7 @@
  */
 void _char(va_list args)
 {
-	char res;
-
-	res = va_arg(args, int);
-	printf("%c", res);
+	printf("%c", va_arg(args, int));
 }
 
 /**
@@ -20,10 +17,7 @@ void _char(va_list args)
  */
 void _int(va_list args)
 {
-	int res;
-
-	res = va_arg(args, int);
-	printf("%d", res);
+	printf("%d", va_arg(args, int));
 }
 
 /**
@@ -35,14 +29,9 @@ void _strn(va_list args)
 	char *res;
 
 	res = va_arg(args, char *);
-	if (res != NULL)
-	{
-		printf("%s", res);
-	}
-	else
-	{
-		printf("(nil)");
-	}
+	if (res == NULL)
+		res = "(nil)";
+	printf("%s", res);
 }
 
 /**
@@ -51,10 +40,7 @@ void _strn(va_list args)
  */
 void _float(va_list args)
 {
-	float res;
-
-	res = va_arg(args, double);
-	printf("%f", res);
+	printf("%f", va_arg(args, double));
 }
 
 /**
