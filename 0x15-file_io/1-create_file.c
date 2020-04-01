@@ -1,5 +1,4 @@
-#include "holberton.h"
-
+#include "holberton."
 /**
  * create_file - create a file with read/write access for user
  * @filename: name of file to create
@@ -17,7 +16,7 @@ int create_file(const char *filename, char *text_content)
 		return (0);
 	if (text_content)
 	{
-		while (text_content)
+		while (text_content[i])
 			i++;
 		w = write(fd, text_content, i);
 		if (w == -1)
