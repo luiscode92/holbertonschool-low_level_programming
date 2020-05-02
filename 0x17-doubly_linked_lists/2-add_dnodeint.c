@@ -2,7 +2,7 @@
 /**
  * add_dnodeint - add a node at the beguining of a linked list
  * @head: head of linked list
- * @value: of the new node
+ * @n: of the new node
  * Return: the address of the new node
 */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
