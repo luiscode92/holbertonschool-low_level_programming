@@ -2,7 +2,7 @@
 /**
   *insert_dnodeint_at_index - insert new node at a given position
   *@n: head of the list
-  *idx: the index starting at 0
+  *@idx: the index starting at 0
   *@h: new value of the new node
   *Return: the address of the new node
   */
