@@ -13,7 +13,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	if (!ht || !key)
 		return (0);
-	new =  malloc(sizeof(hash_node_t));
+	new = malloc(sizeof(hash_node_t));
 	if (!new)
 		return (0);
 	new->key = strdup(key);
@@ -33,7 +33,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 
 	add_node(ht, new);
-	return(1);
+	return (1);
 }
 
 /**
