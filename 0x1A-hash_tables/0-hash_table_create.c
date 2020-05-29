@@ -2,7 +2,6 @@
 /**
  *hash_table_create - function that creates a hash table
  *@size: array size
- *
  *Return: newly created table
  */
 hash_table_t *hash_table_create(unsigned long int size)
